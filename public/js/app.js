@@ -3,7 +3,7 @@
 // //           ########################################################################################### 
 
 
-console.log('Client side javascript file is loaded')
+// console.log('Client side javascript file is loaded')
 
 const weatherForm = document.querySelector('form') ///querySelector() only picks up the 1st one among the content u put inside it, here 1st form in the file will be picked up
 const search = document.querySelector('input')
