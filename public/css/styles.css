@@ -1,0 +1,77 @@
+/* Video No.7.10 -------------------------------------------------------------------------------------------
+ Goal: Styling the Application: Part I
+           ###########################################################################################  */
+body{
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto; /*0: for top& bottom and auto: for left and right*/
+    padding: 0 16px;
+
+    display: flex; /*To create flexbox, so that we can have footer stucked at bottom*/
+    flex-direction: column;
+    min-height: 100vh /*100% of viewport height*/
+}
+
+.main-content{
+    flex-grow: 1;  /*This allows a given element to grow to take up as much space as it needs,setting it to 1 means make it takeover all the left out space*/
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+  
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom:48px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom:64px;
+}
+
+header a{
+    color: #888888;         
+    margin-right: 16px;
+    text-decoration: none;  /*removes underline*/
+    /*targeting links inside header*/
+}
+
+.portrait{
+    width: 250px; /*Iamge with the class portrait will only have these features*/
+}
+/*Part of video no.8.7*/
+
+input{
+   border: 1px solid #cccccc;
+   padding: 8px;
+}
+
+button{
+   cursor: pointer;
+   border: 1px solid #888888;
+   background: #888888;
+   color: white;
+   padding: 8px;
+}
+
+
+/* Video No.7.5 -------------------------------------------------------------------------------------------
+ Goal: Serving up CSS,JS,Images and More
+           ###########################################################################################  */
+
+/*
+h1{
+    color: grey;
+}
+
+img {
+    width: 250px;
+}
+
+*/

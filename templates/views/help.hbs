@@ -1,0 +1,26 @@
+<!-- Video No.7.6 
+// // Goal: Dynamic Pages with Templating  :Delete help.html file
+// //           ########################################################################################### 
+Press div.main-content+TAB to create a div with class of main-content   -->
+
+<!DOCTYPE html>
+
+<html>
+    <title>Help</title>
+    <link rel="icon" href="/img/weather.png">
+    <head>
+        <link rel="stylesheet" href = "/css/styles.css">
+    </head>
+    <body>
+        
+        <div class="main-content">
+            {{>header}} 
+        
+        <p>{{helpText}}</p>
+
+        </div>
+              
+
+        {{> footer}}
+    </body>
+</html>

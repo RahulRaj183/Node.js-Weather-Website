@@ -1,0 +1,41 @@
+<!-- Video No.7.6 
+// // Goal: Dynamic Pages with Templating
+// //           ########################################################################################### -->
+
+<!-- If u nee to serve up a static document, you continue to put them in public, and if u need something a bit complex with dynamic content
+      then handlebars are ur probably best bet. Now delete index.html, as index.hbs will do its job now. -->
+
+<!DOCTYPE html>
+
+<html>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
+    <head>
+
+        <!-- To atttach  a CSS file with the HTML - for relative path version use: ./css/styles.css" for absolute path version use /css/styles.css"-->
+        <link rel="stylesheet" href = "/css/styles.css">
+
+
+    </head>
+    <body>
+        <div class="main-content">
+        {{>header}}  <!-- Instead of hardcoding , we'll give the value to be shown via Node JS, by 2nd argument in render() method in app.js-->
+        <p>Use this site to get your weather!</p>
+
+           <form>
+               <input placeholder="Location">
+               <button>Search</button>
+           </form>
+
+           <p id = "message-1"></p>
+           <p id = "message-2"></p> 
+
+        </div>
+
+        {{>footer}}                 <!-- {{xyz}} is used to access passed object using render() -->
+
+        
+        <!--To load client side javascript file, it will be visible only in Developer tool on chrome-->
+        <script src="/js/app.js"></script>
+    </body>
+</html>
