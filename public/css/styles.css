@@ -1,6 +1,3 @@
-/* Video No.7.10 -------------------------------------------------------------------------------------------
- Goal: Styling the Application: Part I
-           ###########################################################################################  */
 body{
     color: #333333;
     font-family: arial;
@@ -45,7 +42,7 @@ header a{
 .portrait{
     width: 250px; /*Iamge with the class portrait will only have these features*/
 }
-/*Part of video no.8.7*/
+
 
 input{
    border: 1px solid #cccccc;
@@ -59,19 +56,3 @@ button{
    color: white;
    padding: 8px;
 }
-
-
-/* Video No.7.5 -------------------------------------------------------------------------------------------
- Goal: Serving up CSS,JS,Images and More
-           ###########################################################################################  */
-
-/*
-h1{
-    color: grey;
-}
-
-img {
-    width: 250px;
-}
-
-*/
