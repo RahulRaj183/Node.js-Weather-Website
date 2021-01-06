@@ -41,6 +41,7 @@ header a{
 
 .portrait{
     width: 250px; /*Iamge with the class portrait will only have these features*/
+    border: 5px solid #D3D3D3
 }
 
 
